@@ -1,19 +1,6 @@
 new Vue({
-    el: '#editable',
+    el: '#app',
     data: {
-        text1: 'Edit me!'
+        value: 'Tech.io Vue.js Template'
     }
 })
-
-new Vue({
-    el: '#reverse',
-    data: {
-        text2: 'Tech.io Vue.js Template'
-    },
-    methods: {
-        reverseMessage: function () {
-            this.text2 = this.text2.split('').reverse().join('')
-        }
-    }
-})
-
