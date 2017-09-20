@@ -6,7 +6,7 @@ Vue.js is quite famous front end library in nowadays. So It is worth to take a l
 Suppose, we have one HTML element which is to only show when something happens otherwise we do not want to show then in that kind of scenario, we will need to do this kind of conditional statement.
 For example, In the form element, we need to display the errors only user has not input any value then we can use this kind of statement to show the errors of the input field.
 
-#Example 1
+# Example 1
 In below code, I have defined one property called display. This display property by default is true. It means that the in index.html file, <p> tag is displaying because we have set the condition to true. Now, if you change to false and then again run the snippet then v-if condition holds false and we no longer see the text with in <p> tag.
 
 @[Sample Vue.js App]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
