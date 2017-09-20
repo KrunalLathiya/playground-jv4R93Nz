@@ -7,7 +7,7 @@ Suppose, we have one HTML element which is to only show when something happens o
 For example, In the form element, we need to display the errors only user has not input any value then we can use this kind of statement to show the errors of the input field.
 
 # Example 1
-In below code, I have defined one property called display. This display property by default is true. It means that the in index.html file, <p> tag is displaying because we have set the condition to true. Now, if you change to false and then again run the snippet then v-if condition holds false and we no longer see the text with in <p> tag.
+In below code, I have defined one property called display. This display property by default is true. It means that the in index.html file, p tag is displaying because we have set the condition to true. Now, if you change to false and then again run the snippet then v-if condition holds false and we no longer see the text with in p tag.
 
 @[Sample Vue.js App]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
 
