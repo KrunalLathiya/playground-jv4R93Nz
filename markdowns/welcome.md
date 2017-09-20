@@ -7,7 +7,7 @@ Suppose, we have one HTML element which is we need to show only some condition h
 
 For example, In the form element, we need to display the errors only user has not input any value then we can use this kind of statement to show the errors of the input field.
 
-<h3>Example 1</h3>
-In below code, I have defined one property called <strong>display</strong>. This **display** property is by default set to **true**. It means that in the index.html file, **p** tag is displaying because we have set the condition to true. Now, if you change it to false and again run the snippet then **v-if** condition holds false and we no longer see the text with in **p** tag.
+### Example 1
+In below code, I have defined one property called <strong>display</strong>. This <strong>display</strong> property is by default set to **true**. It means that in the index.html file, **p** tag is displaying because we have set the condition to true. Now, if you change it to false and again run the snippet then **v-if** condition holds false and we no longer see the text with in **p** tag.
 
 @[Simple v-if conditional example]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
