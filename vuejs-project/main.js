@@ -1,6 +1,6 @@
 new Vue({
     el: '#app',
     data: {
-        display: true
+        display: false
     }
 })
