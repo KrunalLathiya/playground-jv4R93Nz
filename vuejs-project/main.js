@@ -3,5 +3,4 @@ new Vue({
     data: {
         display: true
         }
-    }
 })
