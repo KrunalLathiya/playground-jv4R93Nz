@@ -10,4 +10,4 @@ For example, In the form element, we need to display the errors only user has no
 ### Example 1
 In below code, I have defined one property called **display**. This **display** property is by default set to **true**. It means that in the index.html file, **p** tag is displaying because we have set the condition to true. Now, if you change it to false and again run the snippet then **v-if** condition holds false and we no longer see the text with in **p** tag.
 
-@[Sample Vue.js App]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
+@[Simple v-if conditional example]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
