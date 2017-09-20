@@ -1,6 +1,11 @@
 new Vue({
     el: '#app',
     data: {
-        display: true
+        display: true,
+        methods: {
+        	dataDisplay: function(){
+        		this.display = !this.display
+        	}
+        }
     }
 })

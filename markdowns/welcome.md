@@ -11,3 +11,10 @@ For example, In the form element, we need to display the errors only user has no
 In below code, I have defined one property called <strong>display</strong>. This <strong>display</strong> property is by default set to **true**. It means that in the index.html file, **p** tag is displaying because we have set the condition to true. Now, if you change it to false and again run the snippet then **v-if** condition holds false and we no longer see the text with in **p** tag.
 
 @[Simple v-if conditional example]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
+
+### Example 2
+In this example, we will use a button to show and hide the particular element using **v-if** condition.
+
+First, we take one button element and when we press that button if the text underneath of **p** element is showing then change it to hide and if the text is hide then change it to show. Means we are just changing the **true** or **false** condition on the event of button press. So it is **click event** of any button as we have used in **jQuery**.
+
+@[Simple v-if conditional example]({"stubs": ["index.html", "main.js"], "command": "/bin/bash run.sh"})
